@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138565535702",
+    "project_id": "location-testing-345c8",
+    "storage_bucket": "location-testing-345c8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138565535702:android:ecf7908e1a70a467718677",
+        "android_client_info": {
+          "package_name": "com.example.location_demo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAtIDT_Saa9q1xpiQU2rl0Ij2LOFXVr38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
