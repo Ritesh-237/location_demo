@@ -2,6 +2,8 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:location_demo/firebase_options.dart';
 
+import 'screens/auth/auth_service.dart';
+
 void main() async {
   // Ensure WidgetsFlutterBinding is initialized before calling Firebase.initializeApp
   WidgetsFlutterBinding.ensureInitialized();
@@ -42,7 +44,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const AuthService(),
     );
   }
 }
